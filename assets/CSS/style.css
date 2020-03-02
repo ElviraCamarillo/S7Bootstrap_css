@@ -3,11 +3,11 @@ body {
 }
 
 img {
-  max-width: 100%;
+  max-width: 75%;
 }
 
 .navbar__link {
-  font-size: 1.25em;
+  font-size: 1em;
   font-family: "Raleway", sans-serif;
 }
 
@@ -17,6 +17,30 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.ctn__imgIntro,
+.block__title {
+  background-color: #202a3c;
+}
+
+.title__intro {
+  background-image: url("/assets/img/bg-curvy-mobile.svg");
+  background-size: 100% auto;
+  background-position: right 0;
+  background-repeat: no-repeat;
+  margin-top: -35px;
+}
+
+.title__intro h1 {
+  font-size: 1.5em;
+  padding: 0.5em 2em 0;
+  text-align: center;
+  line-height: 1.25em;
+}
+
+.ctn__textIntro p {
+  font-size: 1em;
 }
 
 .btn__gradient {
@@ -34,6 +58,7 @@ img {
   text-decoration: none;
   padding-bottom: 0.25em;
   border-bottom: 1px solid #65e2d9;
+  font-size: 0.75em;
 }
 
 .imagen-production {
@@ -42,13 +67,25 @@ img {
   height: auto;
 }
 
-.block__productive .container-fluid p {
-  font-size: 1.25em;
+.block__productive .container-fluid p,
+.p4_fluid {
+  font-size: 1em;
   font-family: "Raleway", sans-serif;
+}
+
+.h2__productive,
+.h5__fluid,
+.h4__fluid {
+  font-size: 1.15em;
 }
 
 .block__features img {
   height: 64px;
+}
+
+.h2__features {
+  font-size: 1.25em;
+  font: bold;
 }
 
 .img_quotes {
@@ -72,7 +109,7 @@ img {
 }
 
 .block__early {
-  margin-bottom: -200px !important;
+  margin-bottom: -150px !important;
 }
 
 .icon__footer {
