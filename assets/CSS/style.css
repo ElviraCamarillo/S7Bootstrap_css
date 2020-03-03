@@ -26,7 +26,7 @@ img {
 }
 
 .title__intro {
-    background-image: url("/assets/img/bg-curvy-mobile.svg");
+    background-image: url("../img/bg-curvy-mobile.svg");
     background-size: 100% auto;
     background-position: right 0;
     background-repeat: no-repeat;
@@ -146,6 +146,12 @@ footer ul {
 @media (min-width: 768px) {
     .title__intro {
         background-image: none;
+        background-image: url("../img/bg-curvy-desktop.svg.svg");
+        background-size: 100% auto;
+        background-position: right 0;
+        background-repeat: no-repeat;
+        margin-top: -35px;
+        padding: 0;
     }
 }
 
