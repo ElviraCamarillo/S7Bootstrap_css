@@ -143,5 +143,15 @@ footer ul {
     list-style: none;
 }
 
+@media (min-width: 768px) {
+    .title__intro {
+        background-image: url("/assets/img/bg-curvy-desktop.svg");
+        background-size: 100% auto;
+        background-position: right 0;
+        background-repeat: no-repeat;
+        margin-top: -35px;
+    }
+}
+
 
 /*# sourceMappingURL=style.css.map */
